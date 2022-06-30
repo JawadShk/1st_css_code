@@ -42,6 +42,8 @@ h5{
         color:blue;
         background-color: peachpuff;
         text-align: justify;
+        border-style: solid;
+        border-color: black;
 }
 .play-with-letter{
         text-align: center;
@@ -63,15 +65,36 @@ h5{
 .first{
     opacity: 0.1;
     color: orangered;
-    font-weight: 900;
 }
 .second{
     opacity: 0.3;
     color: white;
-    font-weight: 900;
 }
 .third{
     opacity: 0.5;
     color: green;
-    font-weight: 900;
+}
+.border-property{
+    /*border-style: dotted;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: teal;
+    background-color: aliceblue;*/
+    border: 2px dotted green;
+}
+.padding-margin{
+   border: 5px dashed palevioletred;
+   /*margin: 100px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;*/
+   margin: 20px 20px 20px 20px;
+    
+   /* padding: 20px 50px ; */
+   /* padding: 10px 10px 10px 10px; */
+   padding-top:10px ;
+   padding-bottom:10px ;
+   padding-right:10px ;
+   padding-left:10px ;
 }
