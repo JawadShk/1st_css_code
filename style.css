@@ -1,0 +1,77 @@
+body{
+    background-color: beige;
+    background-image:url(img/flag.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h5{
+    color: cadetblue;
+}
+.testing{
+    color: yellowgreen;
+}
+.font-apply{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.transforming-text{
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform:none;
+}
+.decorating-text{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+}
+.decor{
+    text-decoration: none;
+    color: teal;
+}
+.all-attributes{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        font-style:oblique;
+        text-transform: capitalize;
+        text-decoration: underline;
+        color:blue;
+        background-color: peachpuff;
+        text-align: justify;
+}
+.play-with-letter{
+        text-align: center;
+        text-align:left;
+        text-align: right;
+        text-align: justify;
+}
+.changing-w{
+    font-size: 50px;
+    color:orchid;
+    text-transform: uppercase;
+}
+.list{
+    list-style: none;
+}
+.b-color{
+    background-color: black;
+}
+.first{
+    opacity: 0.1;
+    color: orangered;
+    font-weight: 900;
+}
+.second{
+    opacity: 0.3;
+    color: white;
+    font-weight: 900;
+}
+.third{
+    opacity: 0.5;
+    color: green;
+    font-weight: 900;
+}
